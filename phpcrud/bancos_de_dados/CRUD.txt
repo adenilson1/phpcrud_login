@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS `contatos` (
+	`id` int(11) NOT NULL AUTO_INCREMENT,
+  	`nome` varchar(255) NOT NULL,
+	`cargo` varchar(255) NOT NULL,
+  	`email` varchar(255) NOT NULL,
+  	`celular` varchar(255) NOT NULL,
+	PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+
+INSERT INTO `contatos` (`id`, `nome`,`cargo`, `email`, `celular`) VALUES
+(1, 'John Doe', 'Lawyer', 'johndoe@example.com', '2026550143'),
+(2, 'David Deacon','Employee', 'daviddeacon@example.com', '2025550121'),
+(3, 'Sam White', 'Employee', 'samwhite@example.com', '2004550121'),
+(4, 'Colin Chaplin', 'Supervisor', 'colinchaplin@example.com', '2022550178'),
+(5, 'Ricky Waltz', '', 'rickywaltz@example.com', '7862342390'),
+(6, 'Arnold Hall', 'Manager', 'arnoldhall@example.com', '5089573579'),
+(7, 'Toni Adams', '', 'alvah1981@example.com', '2603668738'),
+(8, 'Donald Perry', 'Employee', 'donald1983@example.com', '7019007916'),
+(9, 'Joe McKinney', 'Employee', 'nadia.doole0@example.com', '6153353674'),
+(10, 'Angela Horst', 'Assistant', 'angela1977@example.com', '3094234980'),
+(11, 'James Jameson', 'Assistant', 'james1965@example.com', '4002349823'),
+(12, 'Daniel Deacon', 'Manager', 'danieldeacon@example.com', '5003423549');
