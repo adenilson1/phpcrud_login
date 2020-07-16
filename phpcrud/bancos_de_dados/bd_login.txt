@@ -6,5 +6,5 @@ CREATE TABLE IF NOT EXISTS `contas` (
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 INSERT INTO `contas` (`nome`,`senha`) VALUES
-('John Doe', '123'),
-('David Deacon','345');
+('admin', '123'),
+('adenilson','345');
